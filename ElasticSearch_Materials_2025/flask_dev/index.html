@@ -4,14 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Genshin Impact Search Engine</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}"
-    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Animated background elements -->
-    <div class="bg-elements">
+    <section class="bg-elements">
       <div class="floating-element element-1">
         <div class="element-icon">⚡</div>
       </div>
@@ -24,17 +21,17 @@
       <div class="floating-element element-4">
         <div class="element-icon">🌿</div>
       </div>
-    </div>
+    </section>
 
     <div class="container">
       <!-- Header -->
-      <div class="header">
+      <section class="header">
         <h1 class="title">Teyvat Archive</h1>
         <p class="subtitle">Discover the wonders of Genshin Impact</p>
-      </div>
+      </section>
 
       <!-- Search Container -->
-      <div class="search-container">
+      <section class="search-container">
         <!-- Filter Section -->
         <div class="filter-section">
           <label class="filter-label">Choose Category</label>
@@ -69,9 +66,9 @@
             Your search results will appear here...
           </div>
         </div>
-      </div>
+      </section>
     </div>
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="script.js"></script>
   </body>
 </html>
